@@ -3,6 +3,7 @@
 	name: GIDEON NGUNJU
 	reg: CT100/G/26133/25
 	description: semister units
+    TO: MR MATHENGE
 */
 
 #include <stdio.h>
@@ -20,4 +21,5 @@ int main()
 	printf("introduction to programming and algorithms \n");
 	return 0;
 	
+
 }
