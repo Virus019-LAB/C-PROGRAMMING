@@ -3,6 +3,7 @@
  name:gideon ngunju
  reg:CT100/G/26133/25
  des:showing my profile
+ to: MR MATHENGE
  */
 #include <stdio.h>
 
@@ -23,4 +24,5 @@ int main(int argc, char** argv)
 	printf("your weight is %d \n", weight);
 	
 	return 0;
+
 }
