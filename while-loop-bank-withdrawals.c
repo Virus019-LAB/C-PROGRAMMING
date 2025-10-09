@@ -1,5 +1,7 @@
 /*
-
+NAME:GIDEON  WANJOHI NGUNJU
+REG NO:CT100/G/26133/25
+DESCRIPTION:A-WHILE-LOOP-BANK-WITHDAWAL
 */
 
 #include <stdio.h>
@@ -23,4 +25,5 @@ int main()
 	}
 	printf("my balance is zero or negative");
 	return 0;
+
 }
