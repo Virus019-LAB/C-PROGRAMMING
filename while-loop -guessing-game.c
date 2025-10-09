@@ -1,5 +1,7 @@
 /*
-
+NAME:GIDEON  WANJOHI NGUNJU
+REG NO:CT100/G/26133/25
+DESCRIPTION:A-WHILE-LOOP-GUESSING-GAME
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -34,3 +36,4 @@ int main() {
 
     return 0;
 }
+
