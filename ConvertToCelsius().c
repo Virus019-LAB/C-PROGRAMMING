@@ -10,9 +10,10 @@ int main() {
     printf("Enter your temperature in Fahrenheit: ");
     scanf("%f", &temperature);
 
-    // Correct conversion formula
+    
     celsius = (temperature - 32) * 5 / 9;
 
     printf("Your Celsius temperature is %.2f\n", celsius);
     return 0;
 }
+
