@@ -1,0 +1,63 @@
+/*
+NAME:
+REG:
+DESCRIPTION:
+*/
+
+#include <stdio.h>
+
+int main() {
+    FILE *file = fopen("sales.txt", "r");
+    if (file == NULL) {
+        printf("Error opening sales.txt\n");
+        return 1;
+    }
+
+    double amount, total_sales = 0.0;
+
+    
+    while (fscanf(file, "%lf", &amount) == 1) {
+        total_sales += amount;
+    }
+
+    
+    fclose(file);
+
+    printf("Total sales for the day: %.2f\n", total_sales);
+
+    return 0;
+}
+
+/*
+NAME:
+REG:
+DESCRIPTION:
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char name[100];
+    char reg_num[20];
+    int total_marks;
+} Student;
+
+int main() {
+    FILE *file = fopen("results.dat", "rb");
+    if (file == NULL) {
+        printf("Failed to open results.dat\n");
+        return 1;
+    }
+
+    Student student;
+    printf("Student Results:\n");
+
+
+    while (fread(&student, sizeof(Student), 1, file) == 1) {
+        printf("Name: %s, Marks: %d\n", student.name, student.total_marks);
+    }
+
+    fclose(file);
+    return 0;
+}
