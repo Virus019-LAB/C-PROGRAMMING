@@ -1,7 +1,7 @@
 /*
-NAME:
-REG:
-DESCRIPTION:
+NAME:GIDEON WANJOHI
+REG:CT100\G\26133\25
+DESCRIPTION:RESULTS.TXT
 */
 
 #include <stdio.h>
@@ -31,3 +31,4 @@ int main() {
     fclose(file);
     return 0;
 }
+
