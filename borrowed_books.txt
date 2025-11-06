@@ -1,7 +1,7 @@
 /*
-NAME:
-REG:
-DESCRIPTION:
+NAME:GIDEON WANJOHI
+REG:CT100\G\26133\25
+DESCRIPTION:SALES.TXT
 */
 
 
@@ -32,3 +32,4 @@ int main() {
 
     return 0;
 }
+
